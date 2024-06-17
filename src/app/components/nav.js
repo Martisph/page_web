@@ -1,13 +1,13 @@
 export default function Nav({image}){
     return(
         <header>
-            <div>
+            <div className="flex">
                 <a>
-                    <img src={`${image}`} alt="Sunset Roofing logo’s"/>
+                    <img className="h-20" src={`${image}`} alt="Sunset Roofing logo’s"/>
                 </a>
             </div>
             <nav>
-                <ul>
+                <ul className="flex flex-col sm:flex-row">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Project</a></li>

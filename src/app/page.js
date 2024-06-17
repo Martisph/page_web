@@ -7,9 +7,9 @@ export default function Home() {
     <>
     <Nav image="/images/logo.png"/>
     <main>
-      <section className={style.section_main}>
+      <section className= {`${style.section_main}`}>
         <div>
-          <div>
+          <div className="flex">
             <h1>Sunset Roofing and Gutters Services</h1>
             <Image
               //className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
