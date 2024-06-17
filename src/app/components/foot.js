@@ -1,10 +1,10 @@
-export default function Foot(){
+export default function Foot({image}){
     return(
         <footer>
             <div>
                 <div>
                     <div>
-                        <img src="" alt="Sunset Roofing"/>
+                        <img src={`${image}`} alt="Sunset Roofing orange logo’s"/>
                     </div>
                     <div>
                         <h3>Sunset Roofing And Gutters Services</h3>
@@ -15,7 +15,7 @@ export default function Foot(){
                         <ul>
                             <li><a href="#">410-739-3213</a></li>
                             <li><a href="#">Oppening hours: Mon-Fri 7am-5pm, Sat 8am-12pm</a></li>
-                            <li><a>Emergency only: 443540934</a></li>
+                            <li><a href="#">Emergency only: 443540934</a></li>
                         </ul>
                     </div>
                 </div>

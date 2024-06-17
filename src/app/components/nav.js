@@ -1,9 +1,9 @@
-export default function Nav(){
+export default function Nav({image}){
     return(
         <header>
             <div>
                 <a>
-                    <img src="" alt="logo Sunset Roofing"/>
+                    <img src={`${image}`} alt="Sunset Roofing logo’s"/>
                 </a>
             </div>
             <nav>
