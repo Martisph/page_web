@@ -1,113 +1,145 @@
 import Image from "next/image";
-
+import Nav from "./components/nav";
+import Foot from "./components/foot";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+    <Nav/>
+    <main>
+      <section>
+        <div>
+          <div>
+            <h1>Sunset Roofing and Gutters Services</h1>
+          <img src="" alt="SunSet Roofing and Gutters Services LLC"/>
+          </div>
+          <p>At Sunset Roofing and Gutters Services, we take pride in providing high-quality solutions for your roofing and gutter needs. Our commitment to excellence is reflected in every project we undertake. With years of experience in the industry, our team of experts is dedicated to protecting your home or business from the elements. Trust us for professional service and lasting results.</p>
+          <button><a>Get a quote</a></button>
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
+      </section>
+      <section>
+        <div>
+          <h2>
+          Unyielding commitment to excellence, <span>service that knows no equal</span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
+          <p>Our dedication to quality and attention to detail is unparalleled. Whether you need a new roof installation, reliable repairs, or comprehensive gutter services, we're here for you. Our trained team strives to deliver long-lasting results and exceptional service on every project. Your satisfaction is our top priority. Trust us to protect and enhance your property.</p>
+        </div>
+        <div><img src=""/></div>
+      </section>
+      <section>
+        <div>
+          <div>
+            <img src="" alt=""/>
+            <h3>ULTRA QUALITY</h3>
+            <p>At Sunset Roofing and Gutters Services, quality is our core principle. We take pride in delivering excellence in every project</p>
+          </div>
+          <div>
+            <img src="" alt=""/>
+            <h3>MATERIAL OF THE BEST</h3>
+            <p>We use the highest quality materials for your home, always taking care of your economy.</p>
+          </div>
+          <div>
+            <img src="" alt=""/>
+            <h3>COMMITTED TO THE PROJECT</h3>
+            <p>All our projects are guaranteed and delivered on time. We are the experts.</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Our <span>services</span></h2>
+        </div>
+        <div>
+          <div>
+            <h3></h3>
+            <img src=""/>
+          </div>
+          <div>
+            <h3></h3>
+            <img src=""/>
+          </div>
+          <div>
+            <h3></h3>
+            <img src=""/>
+          </div>
+          <div>
+            <h3></h3>
+            <img src=""/>
+          </div>
+          <div>
+            <h3></h3>
+            <img src=""/>
+          </div>
+          <div>
+            <h3></h3>
+            <img src=""/>
+          </div>
+        </div>
+        <div>
+          <button><a>Contact now</a></button>
+        </div>
+      </section>
+      <section>
+        <h2>Check out our <span>quality work</span></h2>
+        <div>
+          <img src="" alt=""/>
+          <img src="" alt=""/>
+          <img src="" alt=""/>
+        </div>
+        <div>
+          <button>See all projects</button>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2></h2>
+          <p></p>
+          <img src="" alt=""/>
+        </div>
+        <div>
+          <img/>
+        </div>
+        <div>
+          <h2>
+          Life is full of surprises some good , some not so good. <span>Your investment has to be secured by certified professionals</span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+          <p>Tell us more about your dream project ! our team will get in touch with you ASAP</p>
+          <form>
+            <div>
+              <label>
+                <span></span>
+                <input></input>
+              </label>
+              <label>
+                <span></span>
+                <input></input>
+              </label>
+            </div>
+            <label>
+              <span></span>
+              <input></input>
+            </label>
+            <label>
+              <span></span>
+              <select>
+                <option>None selected</option>
+                <option>Planning (Deciding to commint 1-2 months from now)</option>
+                <option>Ready to rock’n roll (Decided to commit ASAP)</option>
+                <option>Just want to get prices for personal records</option>
+              </select>
+            </label>
+            <label>
+              <span></span>
+              <textarea placeholder="label area"></textarea>
+            </label>
+            <div>
+              <p>The personal information collected is only used by our team giving a use that complies with these purposes. <span> We do not share or sell your information with any third parties.</span></p>
+            </div>
+            <button>Submit information</button>
+          </form>
+        </div>
+      </section>
     </main>
+    <Foot/>
+    </>
   );
 }
