@@ -8,7 +8,13 @@ export default function Nav({image}){
             <div className="flex flex-col justify-between md:items-center w-11/12 max-w-7xl md:flex-row">
                 <div className="flex items-center w-full md:w-28 justify-between">
                     <a>
-                        <img className="m-3 h-20" src={`${image}`} alt="Sunset Roofing logo"/>
+                        <Image
+                        className="m-3 w-24 h-20"
+                        src={image}
+                        alt="Sunset Roofing logo"
+                        width={1000}
+                        height={1000}
+                        />
                     </a>
                     <div className="md:hidden">
                         <button
@@ -18,8 +24,8 @@ export default function Nav({image}){
                                     className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                                     src="/icon_close.svg"
                                     alt="option"
-                                    width={34}
-                                    height={34}
+                                    width={30}
+                                    height={30}
                                     priority
                                 />): 
                                 (
@@ -27,8 +33,8 @@ export default function Nav({image}){
                                     className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                                     src="/icon_hamburger.svg"
                                     alt="option"
-                                    width={34}
-                                    height={34}
+                                    width={30}
+                                    height={30}
                                     priority
                                 />
                                 )}                        

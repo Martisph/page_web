@@ -1,10 +1,18 @@
+import Image from "next/image";
+
 export default function Foot({image}){
     return(
         <footer className="bg-black text-white">
             <div className="w-11/12 mx-auto box-border py-6">
                 <div className="flex flex-col gap-5 mb-6 sm:flex-row">
                     <div className="sm:w-2/6 box-border pb-8">
-                        <img className="max-w-64 mx-auto" src={`${image}`} alt="Sunset Roofing orange logo"/>
+                        <Image
+                        className="max-w-64 mx-auto"
+                        src={image}
+                        alt="Sunset Roofing orange logo"
+                        width={1000}
+                        height={1000}
+                        />
                     </div>
                     <div className="sm:w-2/6">
                         <h3 className="text-orange-600 text-2xl font-semibold mb-6">Sunset Roofing And Gutters Services</h3>
