@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import Image from "next/image";
 import { useState } from "react";
 export default function Nav({image}){
@@ -42,7 +42,7 @@ export default function Nav({image}){
                         </button>
                     </div>
                 </div>
-                <nav className={`${navbar ? 'block' : 'hidden'} md:block`}>
+                <nav className={`${navbar ? "block" : "hidden"} md:block`}>
                     <ul className="flex flex-col pb-3 md:ml-10 md:justify-between md:flex-row">
                         <li className="px-3 my-1 py-1"><a className="block w-full text-white text-lg font-semibold md:text-xl" href="#">Home</a></li>
                         <li className="px-3 my-1 py-1"><a className="block w-full text-white text-lg font-semibold md:text-xl" href="#services">Services</a></li>
