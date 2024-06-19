@@ -1,9 +1,18 @@
 .section_main{
     background-image: url("/images/BG-HERO-SUNSET-ROOFING.png");
+    background-position: center;
+    background-size: cover;
 }
 .c_about{
     background-image: url("/images/bg-us.png");
+    background-position: center;
+    background-size: cover;
 }
 .c_contact{
     background-image: url("/images/bg-contact.png");
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    scroll-behavior: smooth;
 }
