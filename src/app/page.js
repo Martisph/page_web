@@ -34,7 +34,7 @@ export default function Home() {
           <h2 className="text-3xl font-semibold my-6">
           Unyielding commitment to excellence, <span className="text-orange-500">service that knows no equal</span>
           </h2>
-          <p className="text-lg leading-9">Our dedication to quality and attention to detail is unparalleled. Whether you need a new roof installation, reliable repairs, or comprehensive gutter services, we're here for you. Our trained team strives to deliver long-lasting results and exceptional service on every project. Your satisfaction is our top priority. Trust us to protect and enhance your property.</p>
+          <p className="text-lg leading-9">Our dedication to quality and attention to detail is unparalleled. Whether you need a new roof installation, reliable repairs, or comprehensive gutter services, we&apos;re here for you. Our trained team strives to deliver long-lasting results and exceptional service on every project. Your satisfaction is our top priority. Trust us to protect and enhance your property.</p>
         </div>
         <div className="flex items-center w-10/12 mx-auto p-4 lg:w-3/4">
           <Image
