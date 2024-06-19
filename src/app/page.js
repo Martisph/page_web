@@ -15,7 +15,16 @@ export default function Home() {
           </div>
           <p className="text-white my-10 sm:text-xl">At Sunset Roofing and Gutters Services, we take pride in providing high-quality solutions for your roofing and gutter needs. Our commitment to excellence is reflected in every project we undertake. With years of experience in the industry, our team of experts is dedicated to protecting your home or business from the elements. Trust us for professional service and lasting results.</p>
           <div className="w-full flex justify-center">
-            <button className="bg-white"><a className="text-orange-500 block py-4 px-5">Get a quote</a></button>
+            <button className="bg-white">
+              <a className="text-orange-500 block py-4 px-5">Get a quote
+              <Image
+                className="fill-current stroke-orange-500 stroke-2 inline"
+                src="/icon_next.svg"
+                width={20}
+                height={20}
+                priority
+                />
+                </a></button>
           </div>
         </div>
       </section>
@@ -81,7 +90,16 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center p-8">
-          <button className="bg-orange-500 border-2 border-orange-500 rounded-2xl hover:bg-white"><a className="text-white font-semibold py-4 px-10 sm:px-20 block text-lg hover:text-orange-500" href="#">Contact now</a></button>
+          <button className="bg-orange-500 border-2 border-orange-500 rounded-2xl hover:bg-white"><a className="text-white font-semibold py-4 px-10 sm:px-20 block text-lg hover:text-orange-500" href="#">Contact now
+            <Image
+              className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] stroke-2 dark:invert inline"
+              src="/icon_next.svg"
+              alt="option"
+              width={20}
+              height={20}
+              priority
+            />
+            </a></button>
         </div>
       </section>
       <section id="project" className="my-10">
