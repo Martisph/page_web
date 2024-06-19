@@ -27,7 +27,8 @@ export default function Nav({image}){
                                     width={30}
                                     height={30}
                                     priority
-                                />): 
+                                />
+                            ): 
                                 (
                                 <Image
                                     className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
