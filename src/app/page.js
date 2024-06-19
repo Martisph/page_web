@@ -14,16 +14,10 @@ export default function Home() {
             <img className="grow-0 h-32 mt-5 sm:h-20" src="/images/logo-white.png" alt="SunSet Roofing and Gutters Services LLC"/>
           </div>
           <p className="text-white my-10 sm:text-xl">At Sunset Roofing and Gutters Services, we take pride in providing high-quality solutions for your roofing and gutter needs. Our commitment to excellence is reflected in every project we undertake. With years of experience in the industry, our team of experts is dedicated to protecting your home or business from the elements. Trust us for professional service and lasting results.</p>
-          <div className="w-full flex justify-center">
+          <div className="w-full flex justify-center mt-10">
             <button className="bg-white">
-              <a className="text-orange-500 block py-4 px-5">Get a quote
-              <Image
-                className="fill-current stroke-orange-500 stroke-2 inline"
-                src="/icon_next.svg"
-                width={20}
-                height={20}
-                priority
-                />
+              <a className="text-orange-500 py-4 px-10 flex gap-2 stroke-2 items-center" href="tel:4253193252">Get a quote
+                <svg className="w-6 h-6 fill-orange-500" data-name="Layer 1" id="Layer_1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M478,256,302,432l-21.21-21.2L420.6,271H34V241H420.6L280.75,101.16,302,80Z"/></svg>
                 </a></button>
           </div>
         </div>
