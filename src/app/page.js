@@ -99,9 +99,9 @@ export default function Home() {
       <section id="project" className="my-10">
         <h2 className="text-4xl font-bold text-center sm:text-6xl">Check out our <span className="text-orange-500">quality work</span></h2>
         <div className="flex flex-col flex-wrap justify-between w-11/12 mx-auto sm:flex-row">
-          <img className="w-11/12 mx-auto p-6 h-80 sm:h-96 object-cover sm:w-1/2 sm:mx-0" src="/images/work-1.jpg" alt="work image’s"/>
-          <img className="w-11/12 mx-auto p-6 h-80 sm:h-96 object-cover sm:w-1/2 sm:mx-0" src="/images/work-2.jpg" alt="work image’s"/>
-          <img className="w-11/12 mx-auto p-6 h-80 sm:h-96 object-cover sm:w-1/2 sm:mx-0" src="/images/work-3.jpg" alt="work image’s"/>
+          <img className="w-11/12 mx-auto p-6 h-80 sm:h-96 object-cover sm:w-1/2 sm:mx-0" src="/images/work-1.jpg" alt="work image"/>
+          <img className="w-11/12 mx-auto p-6 h-80 sm:h-96 object-cover sm:w-1/2 sm:mx-0" src="/images/work-2.jpg" alt="work image"/>
+          <img className="w-11/12 mx-auto p-6 h-80 sm:h-96 object-cover sm:w-1/2 sm:mx-0" src="/images/work-3.jpg" alt="work image"/>
         </div>
         <div className="flex justify-center">
           <button className="bg-orange-500 rounded-full shadow-lg m-6 hover:bg-white"><a className="text-white font-semibold block py-5 px-10 sm:px-20 text-lg hover:text-orange-500" href="#">See all projects</a></button>
@@ -112,7 +112,7 @@ export default function Home() {
           <div className="w-11/12 mx-auto my-8 py-8">
             <h2 className="my-8 text-white text-5xl text-right font-semibold sm:text-6xl">More about us</h2>
             <p className="my-8 text-white text-right font-medium leading-6">At Sunset Roofing and Gutters Services, our story is one of dedication and expertise. We began as a team of individuals passionate about construction and safeguarding homes and businesses. Over time, our commitment to quality and customer satisfaction led us to become a leading company in the roofing and gutters industry. For years, we have provided reliable solutions for a wide range of projects. From the installation of high-performance roofs to expert gutter repairs, we have left a mark of excellence on every job we undertake. Our team consists of trained professionals who understand the importance of keeping your property safe and protected. We take pride in being a vital part of your investment in your home or business.</p>
-            <img className="my-8 mx-auto" src="/images/logo-white.png" alt="Sunset Roofing white logo's"/>
+            <img className="my-8 mx-auto" src="/images/logo-white.png" alt="Sunset Roofing white logo\'s"/>
           </div>
         </div>
       </section>
@@ -145,7 +145,7 @@ export default function Home() {
               <select className="w-full p-2 rounded-lg border-2 border-gray-300 text-lg">
                 <option>None selected</option>
                 <option>Planning (Deciding to commint 1-2 months from now)</option>
-                <option>Ready to rock’n roll (Decided to commit ASAP)</option>
+                <option>Ready to rock\’n roll (Decided to commit ASAP)</option>
                 <option>Just want to get prices for personal records</option>
               </select>
             </label>

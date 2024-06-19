@@ -8,7 +8,7 @@ export default function Nav({image}){
             <div className="flex flex-col justify-between md:items-center w-11/12 max-w-7xl md:flex-row">
                 <div className="flex items-center w-full md:w-28 justify-between">
                     <a>
-                        <img className="m-3 h-20" src={`${image}`} alt="Sunset Roofing logo’s"/>
+                        <img className="m-3 h-20" src={`${image}`} alt="Sunset Roofing logo"/>
                     </a>
                     <div className="md:hidden">
                         <button
