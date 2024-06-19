@@ -1,38 +1,47 @@
+'use client'
+import Image from "next/image";
+import { useState } from "react";
 export default function Nav({image}){
+    const [navbar, setNavBar] = useState(false);
     return(
         <header className="flex justify-center w-full fixed top-0 z-50 bg-transparent backdrop-blur-lg">
-            <div className="flex flex-col justify-between items-center w-11/12 max-w-7xl md:flex-row">
+            <div className="flex flex-col justify-between md:items-center w-11/12 max-w-7xl md:flex-row">
                 <div className="flex items-center w-full md:w-28 justify-between">
                     <a>
                         <img className="m-3 h-20" src={`${image}`} alt="Sunset Roofing logo’s"/>
                     </a>
                     <div className="md:hidden">
-                        <button>
-                        <svg
-                            className="hidden h-6 w-6"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2} // Aquí usamos { } para una expresión JavaScript, asegúrate de que evalúe correctamente.
-                                d="M4 6h16M4 12h16M4 18h16"
-                            />
-                        </svg>
-                            hola
+                        <button
+                        onClick={()=>setNavBar(!navbar)}>
+                            {navbar ? (
+                                <Image
+                                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                                    src="/icon_close.svg"
+                                    alt="option"
+                                    width={34}
+                                    height={34}
+                                    priority
+                                />): 
+                                (
+                                <Image
+                                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                                    src="/icon_hamburger.svg"
+                                    alt="option"
+                                    width={34}
+                                    height={34}
+                                    priority
+                                />
+                                )}                        
                         </button>
                     </div>
                 </div>
-                <nav className="hidden md:block">
-                    <ul className="flex justify-between flex-col ml-10 md:flex-row">
-                        <li className="px-3 py-1"><a className="text-xl text-white font-semibold" href="#">Home</a></li>
-                        <li className="px-3 py-1"><a className="text-xl text-white font-semibold" href="#services">Services</a></li>
-                        <li className="px-3 py-1"><a className="text-xl text-white font-semibold" href="#project">Project</a></li>
-                        <li className="px-3 py-1"><a className="text-xl text-white font-semibold" href="#about-us">About us</a></li>
-                        <li className="px-3 py-1"><a className="text-xl text-white font-semibold" href="#contact">Contact</a></li>
+                <nav className={`${navbar ? 'block' : 'hidden'} md:block`}>
+                    <ul className="flex flex-col pb-3 md:ml-10 md:justify-between md:flex-row">
+                        <li className="px-3 my-1 py-1"><a className="block w-full text-white text-lg font-semibold md:text-xl" href="#">Home</a></li>
+                        <li className="px-3 my-1 py-1"><a className="block w-full text-white text-lg font-semibold md:text-xl" href="#services">Services</a></li>
+                        <li className="px-3 my-1 py-1"><a className="block w-full text-white text-lg font-semibold md:text-xl" href="#project">Project</a></li>
+                        <li className="px-3 my-1 py-1"><a className="block w-full text-white text-lg font-semibold md:text-xl" href="#about-us">About us</a></li>
+                        <li className="px-3 my-1 py-1"><a className="block w-full text-white text-lg font-semibold md:text-xl" href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>

@@ -13,7 +13,7 @@ export default function Home() {
             <h1 className="text-white font-bold text-3xl grow text-center sm:text-5xl">Sunset Roofing and Gutters Services</h1>
             <img className="grow-0 h-32 mt-5 sm:h-20" src="/images/logo-white.png" alt="SunSet Roofing and Gutters Services LLC"/>
           </div>
-          <p className="text-white my-10">At Sunset Roofing and Gutters Services, we take pride in providing high-quality solutions for your roofing and gutter needs. Our commitment to excellence is reflected in every project we undertake. With years of experience in the industry, our team of experts is dedicated to protecting your home or business from the elements. Trust us for professional service and lasting results.</p>
+          <p className="text-white my-10 sm:text-xl">At Sunset Roofing and Gutters Services, we take pride in providing high-quality solutions for your roofing and gutter needs. Our commitment to excellence is reflected in every project we undertake. With years of experience in the industry, our team of experts is dedicated to protecting your home or business from the elements. Trust us for professional service and lasting results.</p>
           <div className="w-full flex justify-center">
             <button className="bg-white"><a className="text-orange-500 block py-4 px-5">Get a quote</a></button>
           </div>
