@@ -203,7 +203,7 @@ export default function Home() {
             <Image
               width={1000}
               height={1000}
-              className="my-8 mx-auto"
+              className="my-8 w-72 mx-auto"
               src="/images/logo-white.png" 
               alt="Sunset Roofing white logo"
             />
